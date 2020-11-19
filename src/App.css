@@ -1,3 +1,41 @@
+ul {
+  list-style-type: none;
+
+  margin: auto;
+}
+
+li {
+  cursor: pointer;
+}
+
+.addButton {
+  display: inline;
+  color: aliceblue;
+  cursor: pointer;
+}
+.itemsBox {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  border: 1px solid rgb(170, 170, 170);
+  background-color: rgb(100, 100, 255);
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.sectionBox {
+  background-color: #ececec;
+  border: 1px solid rgb(219, 219, 219);
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.productSectionBox {
+  border: 1px solid rgb(170, 170, 170);
+  background-color: rgb(167, 167, 255);
+  padding: 20px;
+  border-radius: 5px;
+}
 .App {
   text-align: center;
 }
